@@ -10,5 +10,7 @@
 #define BKUIKit_h
 
 #import "UIView+BKFrame.h"
+#import "UIView+BKScreenShot.h"
+#import "UIView+BKFind.h"
 
 #endif /* BKUIKit_h */

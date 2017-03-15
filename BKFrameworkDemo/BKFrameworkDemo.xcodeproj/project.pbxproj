@@ -15,6 +15,11 @@
 		E2CF86491E78E16600A9E5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF86471E78E16600A9E5F6 /* LaunchScreen.storyboard */; };
 		E2CF86571E78E9F700A9E5F6 /* UIView+BKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86561E78E9F700A9E5F6 /* UIView+BKFrame.m */; };
 		E2CF865A1E78EAAD00A9E5F6 /* NSString+BKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86591E78EAAD00A9E5F6 /* NSString+BKAdd.m */; };
+		E2CF865E1E7916BC00A9E5F6 /* UIView+BKScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF865D1E7916BC00A9E5F6 /* UIView+BKScreenShot.m */; };
+		E2CF86621E79178300A9E5F6 /* UIView+BKFind.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86611E79178300A9E5F6 /* UIView+BKFind.m */; };
+		E2CF86651E79190600A9E5F6 /* NSString+BKNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86641E79190600A9E5F6 /* NSString+BKNormalRegex.m */; };
+		E2CF86681E791AD800A9E5F6 /* NSString+BKSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86671E791AD800A9E5F6 /* NSString+BKSize.m */; };
+		E2CF866B1E791BE100A9E5F6 /* NSString+BKSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF866A1E791BE100A9E5F6 /* NSString+BKSystem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +34,22 @@
 		E2CF86481E78E16600A9E5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2CF864A1E78E16600A9E5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2CF86511E78E86600A9E5F6 /* BKFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKFramework.h; sourceTree = "<group>"; };
-		E2CF86541E78E98A00A9E5F6 /* BKUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BKUIKit.h; path = UIKIt/BKUIKit.h; sourceTree = "<group>"; };
 		E2CF86551E78E9F700A9E5F6 /* UIView+BKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKFrame.h"; sourceTree = "<group>"; };
 		E2CF86561E78E9F700A9E5F6 /* UIView+BKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKFrame.m"; sourceTree = "<group>"; };
 		E2CF86581E78EAAD00A9E5F6 /* NSString+BKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BKAdd.h"; sourceTree = "<group>"; };
 		E2CF86591E78EAAD00A9E5F6 /* NSString+BKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BKAdd.m"; sourceTree = "<group>"; };
 		E2CF865B1E78EB0800A9E5F6 /* BKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKFoundation.h; sourceTree = "<group>"; };
+		E2CF865C1E7916BC00A9E5F6 /* UIView+BKScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKScreenShot.h"; sourceTree = "<group>"; };
+		E2CF865D1E7916BC00A9E5F6 /* UIView+BKScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKScreenShot.m"; sourceTree = "<group>"; };
+		E2CF865F1E7916E200A9E5F6 /* BKUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKUIKit.h; sourceTree = "<group>"; };
+		E2CF86601E79178300A9E5F6 /* UIView+BKFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKFind.h"; sourceTree = "<group>"; };
+		E2CF86611E79178300A9E5F6 /* UIView+BKFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKFind.m"; sourceTree = "<group>"; };
+		E2CF86631E79190600A9E5F6 /* NSString+BKNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BKNormalRegex.h"; sourceTree = "<group>"; };
+		E2CF86641E79190600A9E5F6 /* NSString+BKNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BKNormalRegex.m"; sourceTree = "<group>"; };
+		E2CF86661E791AD800A9E5F6 /* NSString+BKSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BKSize.h"; sourceTree = "<group>"; };
+		E2CF86671E791AD800A9E5F6 /* NSString+BKSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BKSize.m"; sourceTree = "<group>"; };
+		E2CF86691E791BE100A9E5F6 /* NSString+BKSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BKSystem.h"; sourceTree = "<group>"; };
+		E2CF866A1E791BE100A9E5F6 /* NSString+BKSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BKSystem.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +110,8 @@
 				E2CF86521E78E96A00A9E5F6 /* Foundation */,
 				E2CF86531E78E96A00A9E5F6 /* UIKIt */,
 				E2CF86511E78E86600A9E5F6 /* BKFramework.h */,
-				E2CF86541E78E98A00A9E5F6 /* BKUIKit.h */,
 				E2CF865B1E78EB0800A9E5F6 /* BKFoundation.h */,
+				E2CF865F1E7916E200A9E5F6 /* BKUIKit.h */,
 			);
 			path = BKFramework;
 			sourceTree = "<group>";
@@ -106,6 +121,12 @@
 			children = (
 				E2CF86581E78EAAD00A9E5F6 /* NSString+BKAdd.h */,
 				E2CF86591E78EAAD00A9E5F6 /* NSString+BKAdd.m */,
+				E2CF86631E79190600A9E5F6 /* NSString+BKNormalRegex.h */,
+				E2CF86641E79190600A9E5F6 /* NSString+BKNormalRegex.m */,
+				E2CF86661E791AD800A9E5F6 /* NSString+BKSize.h */,
+				E2CF86671E791AD800A9E5F6 /* NSString+BKSize.m */,
+				E2CF86691E791BE100A9E5F6 /* NSString+BKSystem.h */,
+				E2CF866A1E791BE100A9E5F6 /* NSString+BKSystem.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -115,6 +136,10 @@
 			children = (
 				E2CF86551E78E9F700A9E5F6 /* UIView+BKFrame.h */,
 				E2CF86561E78E9F700A9E5F6 /* UIView+BKFrame.m */,
+				E2CF865C1E7916BC00A9E5F6 /* UIView+BKScreenShot.h */,
+				E2CF865D1E7916BC00A9E5F6 /* UIView+BKScreenShot.m */,
+				E2CF86601E79178300A9E5F6 /* UIView+BKFind.h */,
+				E2CF86611E79178300A9E5F6 /* UIView+BKFind.m */,
 			);
 			path = UIKIt;
 			sourceTree = "<group>";
@@ -193,9 +218,14 @@
 			files = (
 				E2CF86411E78E16600A9E5F6 /* ViewController.m in Sources */,
 				E2CF863E1E78E16600A9E5F6 /* AppDelegate.m in Sources */,
+				E2CF86621E79178300A9E5F6 /* UIView+BKFind.m in Sources */,
+				E2CF866B1E791BE100A9E5F6 /* NSString+BKSystem.m in Sources */,
 				E2CF863B1E78E16600A9E5F6 /* main.m in Sources */,
+				E2CF865E1E7916BC00A9E5F6 /* UIView+BKScreenShot.m in Sources */,
 				E2CF86571E78E9F700A9E5F6 /* UIView+BKFrame.m in Sources */,
 				E2CF865A1E78EAAD00A9E5F6 /* NSString+BKAdd.m in Sources */,
+				E2CF86681E791AD800A9E5F6 /* NSString+BKSize.m in Sources */,
+				E2CF86651E79190600A9E5F6 /* NSString+BKNormalRegex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
