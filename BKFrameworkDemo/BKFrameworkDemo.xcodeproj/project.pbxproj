@@ -13,6 +13,8 @@
 		E2CF86441E78E16600A9E5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF86421E78E16600A9E5F6 /* Main.storyboard */; };
 		E2CF86461E78E16600A9E5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CF86451E78E16600A9E5F6 /* Assets.xcassets */; };
 		E2CF86491E78E16600A9E5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CF86471E78E16600A9E5F6 /* LaunchScreen.storyboard */; };
+		E2CF86571E78E9F700A9E5F6 /* UIView+BKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86561E78E9F700A9E5F6 /* UIView+BKFrame.m */; };
+		E2CF865A1E78EAAD00A9E5F6 /* NSString+BKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86591E78EAAD00A9E5F6 /* NSString+BKAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,13 @@
 		E2CF86451E78E16600A9E5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2CF86481E78E16600A9E5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2CF864A1E78E16600A9E5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CF86511E78E86600A9E5F6 /* BKFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKFramework.h; sourceTree = "<group>"; };
+		E2CF86541E78E98A00A9E5F6 /* BKUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BKUIKit.h; path = UIKIt/BKUIKit.h; sourceTree = "<group>"; };
+		E2CF86551E78E9F700A9E5F6 /* UIView+BKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKFrame.h"; sourceTree = "<group>"; };
+		E2CF86561E78E9F700A9E5F6 /* UIView+BKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKFrame.m"; sourceTree = "<group>"; };
+		E2CF86581E78EAAD00A9E5F6 /* NSString+BKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BKAdd.h"; sourceTree = "<group>"; };
+		E2CF86591E78EAAD00A9E5F6 /* NSString+BKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BKAdd.m"; sourceTree = "<group>"; };
+		E2CF865B1E78EB0800A9E5F6 /* BKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKFoundation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,31 @@
 		E2CF86501E78E19F00A9E5F6 /* BKFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E2CF86521E78E96A00A9E5F6 /* Foundation */,
+				E2CF86531E78E96A00A9E5F6 /* UIKIt */,
+				E2CF86511E78E86600A9E5F6 /* BKFramework.h */,
+				E2CF86541E78E98A00A9E5F6 /* BKUIKit.h */,
+				E2CF865B1E78EB0800A9E5F6 /* BKFoundation.h */,
 			);
 			path = BKFramework;
+			sourceTree = "<group>";
+		};
+		E2CF86521E78E96A00A9E5F6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF86581E78EAAD00A9E5F6 /* NSString+BKAdd.h */,
+				E2CF86591E78EAAD00A9E5F6 /* NSString+BKAdd.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		E2CF86531E78E96A00A9E5F6 /* UIKIt */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF86551E78E9F700A9E5F6 /* UIView+BKFrame.h */,
+				E2CF86561E78E9F700A9E5F6 /* UIView+BKFrame.m */,
+			);
+			path = UIKIt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +194,8 @@
 				E2CF86411E78E16600A9E5F6 /* ViewController.m in Sources */,
 				E2CF863E1E78E16600A9E5F6 /* AppDelegate.m in Sources */,
 				E2CF863B1E78E16600A9E5F6 /* main.m in Sources */,
+				E2CF86571E78E9F700A9E5F6 /* UIView+BKFrame.m in Sources */,
+				E2CF865A1E78EAAD00A9E5F6 /* NSString+BKAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
