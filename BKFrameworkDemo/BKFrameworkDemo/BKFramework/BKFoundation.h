@@ -13,7 +13,7 @@
 #import "NSString+BKNormalRegex.h"
 #import "NSString+BKSize.h"
 #import "NSString+BKSystem.h"
-#improt "NSObject+BKAdd.h"
+#import "NSObject+BKAdd.h"
 #import "NSDictionary+BKAdd.h"
 #import "NSDate+BKAdd.h"
 #import "NSTimer+BKBlock.h"
