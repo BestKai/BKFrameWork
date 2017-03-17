@@ -12,5 +12,17 @@
 #import "UIView+BKFrame.h"
 #import "UIView+BKScreenShot.h"
 #import "UIView+BKFind.h"
+#import "UIImage+BKColor.h"
+#import "UIImage+BKResize.h"
+#import "UIImage+BKRotate.h"
+#import "UIImage+BKGIF.h"
+#import "UIButton+BKAlignment.h"
+#import "UIButton+BKBlock.h"
+#import "UIButton+BKBackgroundColor.h"
+#import "UIAlertView+BKBlock.h"
+#import "UIColor+BKAdd.h"
+#import "UITableView+BKAdd.h"
+#import "UIScrollView+BKAdd.h"
+#import "UIGestureRecognizer+BKBlock.h"
 
 #endif /* BKUIKit_h */
