@@ -53,7 +53,7 @@ static NSString *UIAlertViewKey = @"UIAlertViewKey";
     [self didChangeValueForKey:@"callbackBlock"];
 }
 
-- (UIAlertViewBKCallBackBlock)jk_alertViewCallBackBlock {
+- (UIAlertViewBKCallBackBlock)bk_alertViewCallBackBlock {
     
     return objc_getAssociatedObject(self, &UIAlertViewKey);
 }
