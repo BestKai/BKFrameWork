@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E215A7EA1E80CAEF00663474 /* UITextView+BKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */; };
+		E215A7F01E81016300663474 /* BKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E215A7EF1E81016300663474 /* BKUtilities.m */; };
 		E28C1D5D1E7A667400F86437 /* UIImage+BKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1D5C1E7A667400F86437 /* UIImage+BKColor.m */; };
 		E28C1D601E7A68BC00F86437 /* UIImage+BKResize.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1D5F1E7A68BC00F86437 /* UIImage+BKResize.m */; };
 		E28C1D631E7A6A2F00F86437 /* UIImage+BKRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1D621E7A6A2F00F86437 /* UIImage+BKRotate.m */; };
@@ -43,6 +44,11 @@
 /* Begin PBXFileReference section */
 		E215A7E81E80CAEF00663474 /* UITextView+BKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BKAdd.h"; sourceTree = "<group>"; };
 		E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BKAdd.m"; sourceTree = "<group>"; };
+		E215A7EE1E81015300663474 /* BKUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKUtilities.h; sourceTree = "<group>"; };
+		E215A7EF1E81016300663474 /* BKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKUtilities.m; sourceTree = "<group>"; };
+		E215A7F11E81075C00663474 /* BKConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKConstant.h; sourceTree = "<group>"; };
+		E215A7F21E81078A00663474 /* BKUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKUIKit.h; sourceTree = "<group>"; };
+		E215A7F31E81079400663474 /* BKFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKFoundation.h; sourceTree = "<group>"; };
 		E28C1D5B1E7A667400F86437 /* UIImage+BKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BKColor.h"; sourceTree = "<group>"; };
 		E28C1D5C1E7A667400F86437 /* UIImage+BKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BKColor.m"; sourceTree = "<group>"; };
 		E28C1D5E1E7A68BC00F86437 /* UIImage+BKResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BKResize.h"; sourceTree = "<group>"; };
@@ -92,10 +98,8 @@
 		E2CF86561E78E9F700A9E5F6 /* UIView+BKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKFrame.m"; sourceTree = "<group>"; };
 		E2CF86581E78EAAD00A9E5F6 /* NSString+BKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BKAdd.h"; sourceTree = "<group>"; };
 		E2CF86591E78EAAD00A9E5F6 /* NSString+BKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BKAdd.m"; sourceTree = "<group>"; };
-		E2CF865B1E78EB0800A9E5F6 /* BKFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKFoundation.h; sourceTree = "<group>"; };
 		E2CF865C1E7916BC00A9E5F6 /* UIView+BKScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKScreenShot.h"; sourceTree = "<group>"; };
 		E2CF865D1E7916BC00A9E5F6 /* UIView+BKScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKScreenShot.m"; sourceTree = "<group>"; };
-		E2CF865F1E7916E200A9E5F6 /* BKUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKUIKit.h; sourceTree = "<group>"; };
 		E2CF86601E79178300A9E5F6 /* UIView+BKFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKFind.h"; sourceTree = "<group>"; };
 		E2CF86611E79178300A9E5F6 /* UIView+BKFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKFind.m"; sourceTree = "<group>"; };
 		E2CF86631E79190600A9E5F6 /* NSString+BKNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BKNormalRegex.h"; sourceTree = "<group>"; };
@@ -124,6 +128,22 @@
 				E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */,
 			);
 			name = UITextView;
+			sourceTree = "<group>";
+		};
+		E215A7EB1E80FE5A00663474 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E215A7ED1E81012C00663474 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E215A7EE1E81015300663474 /* BKUtilities.h */,
+				E215A7EF1E81016300663474 /* BKUtilities.m */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		E28C1D591E7A655800F86437 /* UIView */ = {
@@ -316,11 +336,12 @@
 		E2CF86501E78E19F00A9E5F6 /* BKFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E215A7ED1E81012C00663474 /* Utility */,
+				E215A7EB1E80FE5A00663474 /* Network */,
 				E2CF86521E78E96A00A9E5F6 /* Foundation */,
 				E2CF86531E78E96A00A9E5F6 /* UIKIt */,
 				E2CF86511E78E86600A9E5F6 /* BKFramework.h */,
-				E2CF865B1E78EB0800A9E5F6 /* BKFoundation.h */,
-				E2CF865F1E7916E200A9E5F6 /* BKUIKit.h */,
+				E215A7F11E81075C00663474 /* BKConstant.h */,
 			);
 			path = BKFramework;
 			sourceTree = "<group>";
@@ -328,6 +349,7 @@
 		E2CF86521E78E96A00A9E5F6 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E215A7F31E81079400663474 /* BKFoundation.h */,
 				E28C1F0B1E7B857000F86437 /* NSUserDefaults */,
 				E28C1F071E7B814600F86437 /* NSTimer */,
 				E28C1F031E7B800100F86437 /* NSDate */,
@@ -341,6 +363,7 @@
 		E2CF86531E78E96A00A9E5F6 /* UIKIt */ = {
 			isa = PBXGroup;
 			children = (
+				E215A7F21E81078A00663474 /* BKUIKit.h */,
 				E215A7E71E80CABD00663474 /* UITextView */,
 				E28C1EF31E7B79E900F86437 /* UIGestureRecognizer */,
 				E28C1EEF1E7B795A00F86437 /* UIScrollVew */,
@@ -445,6 +468,7 @@
 				E2CF86571E78E9F700A9E5F6 /* UIView+BKFrame.m in Sources */,
 				E28C1D6D1E7A8FB500F86437 /* UIButton+BKBlock.m in Sources */,
 				E28C1D5D1E7A667400F86437 /* UIImage+BKColor.m in Sources */,
+				E215A7F01E81016300663474 /* BKUtilities.m in Sources */,
 				E28C1F0E1E7B85A500F86437 /* NSUserDefaults+BKSafeAccess.m in Sources */,
 				E2CF865A1E78EAAD00A9E5F6 /* NSString+BKAdd.m in Sources */,
 				E28C1F0A1E7B815E00F86437 /* NSTimer+BKBlock.m in Sources */,

@@ -9,8 +9,9 @@
 #ifndef BKFramework_h
 #define BKFramework_h
 
-
-#import "BKUIKit.h"
-#import "BKFoundation.h"
+#import "UIKIt/BKUIKit.h"
+#import "Foundation/BKFoundation.h"
+#import "BKUtilities.h"
+#import "BKConstant.h"
 
 #endif /* BKFramework_h */
