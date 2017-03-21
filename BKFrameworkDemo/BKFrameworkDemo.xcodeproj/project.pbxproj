@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E215A7EA1E80CAEF00663474 /* UITextView+BKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */; };
 		E28C1D5D1E7A667400F86437 /* UIImage+BKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1D5C1E7A667400F86437 /* UIImage+BKColor.m */; };
 		E28C1D601E7A68BC00F86437 /* UIImage+BKResize.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1D5F1E7A68BC00F86437 /* UIImage+BKResize.m */; };
 		E28C1D631E7A6A2F00F86437 /* UIImage+BKRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1D621E7A6A2F00F86437 /* UIImage+BKRotate.m */; };
@@ -40,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E215A7E81E80CAEF00663474 /* UITextView+BKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BKAdd.h"; sourceTree = "<group>"; };
+		E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BKAdd.m"; sourceTree = "<group>"; };
 		E28C1D5B1E7A667400F86437 /* UIImage+BKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BKColor.h"; sourceTree = "<group>"; };
 		E28C1D5C1E7A667400F86437 /* UIImage+BKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BKColor.m"; sourceTree = "<group>"; };
 		E28C1D5E1E7A68BC00F86437 /* UIImage+BKResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BKResize.h"; sourceTree = "<group>"; };
@@ -114,6 +117,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E215A7E71E80CABD00663474 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				E215A7E81E80CAEF00663474 /* UITextView+BKAdd.h */,
+				E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */,
+			);
+			name = UITextView;
+			sourceTree = "<group>";
+		};
 		E28C1D591E7A655800F86437 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +341,7 @@
 		E2CF86531E78E96A00A9E5F6 /* UIKIt */ = {
 			isa = PBXGroup;
 			children = (
+				E215A7E71E80CABD00663474 /* UITextView */,
 				E28C1EF31E7B79E900F86437 /* UIGestureRecognizer */,
 				E28C1EEF1E7B795A00F86437 /* UIScrollVew */,
 				E28C1EEB1E7B78E400F86437 /* UITableView */,
@@ -425,6 +438,7 @@
 				E28C1D631E7A6A2F00F86437 /* UIImage+BKRotate.m in Sources */,
 				E2CF866B1E791BE100A9E5F6 /* NSString+BKSystem.m in Sources */,
 				E28C1EEE1E7B78F300F86437 /* UITableView+BKAdd.m in Sources */,
+				E215A7EA1E80CAEF00663474 /* UITextView+BKAdd.m in Sources */,
 				E2CF863B1E78E16600A9E5F6 /* main.m in Sources */,
 				E28C1EFE1E7B7C4500F86437 /* NSObject+BKAdd.m in Sources */,
 				E2CF865E1E7916BC00A9E5F6 /* UIView+BKScreenShot.m in Sources */,
