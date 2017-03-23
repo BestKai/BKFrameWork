@@ -82,8 +82,8 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
- s.subspec 'UIKIt' do |ss|
-    ss.source_files = 'BKFrameworkDemo/BKFrameworkDemo/BKFramework/UIKIt/**/*.{h,m}'
+  s.subspec 'UIKIt' do |ss|
+    ss.source_files = 'BKFrameworkDemo/BKFrameworkDemo/BKFramework/UIKIt/*.{h,m}'
     ss.public_header_files = 'BKFrameworkDemo/BKFrameworkDemo/BKFramework/UIKIt/BKUIKit.h'
     ss.frameworks = 'UIKit'
   end
