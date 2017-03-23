@@ -68,10 +68,25 @@ static const CGFloat BKTabbarHeight = 49;
 
 
 #pragma mark --- Others
-
+//1px 
 #ifndef SINGLE_LINE_HEIGHT
 #define SINGLE_LINE_HEIGHT (1/BKScreenScale())
 #endif
+
+
+//debug
+#ifdef DEBUG //develop
+#define NSLog(...) NSLog(@"%s %d\n %@\n\n", __func__, __LINE__, [NSString stringWithFormat:__VA_ARGS__])
+#else //release
+#define NSLog(...)
+#endif
+
+
+//block
+#define BLOCK_EXEC(block, ...) if (block) { block(__VA_ARGS__); };
+
+
+
 
 
 

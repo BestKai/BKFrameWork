@@ -25,5 +25,6 @@
 #import "UIScrollView+BKAdd.h"
 #import "UIGestureRecognizer+BKBlock.h"
 #import "UITextView+BKAdd.h"
+#import "UIImageView+BKUpload.h"
 
 #endif /* BKUIKit_h */

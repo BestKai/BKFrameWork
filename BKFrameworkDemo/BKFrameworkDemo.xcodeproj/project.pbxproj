@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8E4A44B37EA3D42842032AF /* libPods-BKFrameworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A6E88FA5FEC469DB0350BE /* libPods-BKFrameworkDemo.a */; };
 		E215A7EA1E80CAEF00663474 /* UITextView+BKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */; };
 		E215A7F01E81016300663474 /* BKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E215A7EF1E81016300663474 /* BKUtilities.m */; };
 		E28C1D5D1E7A667400F86437 /* UIImage+BKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1D5C1E7A667400F86437 /* UIImage+BKColor.m */; };
@@ -26,6 +27,8 @@
 		E28C1F061E7B802000F86437 /* NSDate+BKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1F051E7B802000F86437 /* NSDate+BKAdd.m */; };
 		E28C1F0A1E7B815E00F86437 /* NSTimer+BKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1F091E7B815E00F86437 /* NSTimer+BKBlock.m */; };
 		E28C1F0E1E7B85A500F86437 /* NSUserDefaults+BKSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C1F0D1E7B85A500F86437 /* NSUserDefaults+BKSafeAccess.m */; };
+		E2AD651B1E8207E100F5D8CB /* BKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD651A1E8207E100F5D8CB /* BKBaseRequest.m */; };
+		E2AD651F1E82764800F5D8CB /* UIImageView+BKUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD651E1E82764800F5D8CB /* UIImageView+BKUpload.m */; };
 		E2CF863B1E78E16600A9E5F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF863A1E78E16600A9E5F6 /* main.m */; };
 		E2CF863E1E78E16600A9E5F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF863D1E78E16600A9E5F6 /* AppDelegate.m */; };
 		E2CF86411E78E16600A9E5F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF86401E78E16600A9E5F6 /* ViewController.m */; };
@@ -42,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F39FC865C973AA9911E151A /* Pods-BKFrameworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKFrameworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKFrameworkDemo/Pods-BKFrameworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		73A6E88FA5FEC469DB0350BE /* libPods-BKFrameworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BKFrameworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7979096564966B887D41AFCB /* Pods-BKFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKFrameworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKFrameworkDemo/Pods-BKFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E215A7E81E80CAEF00663474 /* UITextView+BKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BKAdd.h"; sourceTree = "<group>"; };
 		E215A7E91E80CAEF00663474 /* UITextView+BKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BKAdd.m"; sourceTree = "<group>"; };
 		E215A7EE1E81015300663474 /* BKUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKUtilities.h; sourceTree = "<group>"; };
@@ -83,6 +89,10 @@
 		E28C1F091E7B815E00F86437 /* NSTimer+BKBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BKBlock.m"; sourceTree = "<group>"; };
 		E28C1F0C1E7B85A500F86437 /* NSUserDefaults+BKSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+BKSafeAccess.h"; sourceTree = "<group>"; };
 		E28C1F0D1E7B85A500F86437 /* NSUserDefaults+BKSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+BKSafeAccess.m"; sourceTree = "<group>"; };
+		E2AD65191E8207E100F5D8CB /* BKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKBaseRequest.h; sourceTree = "<group>"; };
+		E2AD651A1E8207E100F5D8CB /* BKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKBaseRequest.m; sourceTree = "<group>"; };
+		E2AD651D1E82764800F5D8CB /* UIImageView+BKUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BKUpload.h"; sourceTree = "<group>"; };
+		E2AD651E1E82764800F5D8CB /* UIImageView+BKUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BKUpload.m"; sourceTree = "<group>"; };
 		E2CF86361E78E16600A9E5F6 /* BKFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF863A1E78E16600A9E5F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2CF863C1E78E16600A9E5F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,12 +125,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E4A44B37EA3D42842032AF /* libPods-BKFrameworkDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2631D137DC8163FF99A93D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7979096564966B887D41AFCB /* Pods-BKFrameworkDemo.debug.xcconfig */,
+				6F39FC865C973AA9911E151A /* Pods-BKFrameworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE09FDB935EEACF1C6EB08A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A6E88FA5FEC469DB0350BE /* libPods-BKFrameworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E215A7E71E80CABD00663474 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +161,8 @@
 		E215A7EB1E80FE5A00663474 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				E2AD65191E8207E100F5D8CB /* BKBaseRequest.h */,
+				E2AD651A1E8207E100F5D8CB /* BKBaseRequest.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -292,11 +322,22 @@
 			name = NSUserDefaults;
 			sourceTree = "<group>";
 		};
+		E2AD651C1E82762800F5D8CB /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E2AD651D1E82764800F5D8CB /* UIImageView+BKUpload.h */,
+				E2AD651E1E82764800F5D8CB /* UIImageView+BKUpload.m */,
+			);
+			name = UIImageView;
+			sourceTree = "<group>";
+		};
 		E2CF862D1E78E16600A9E5F6 = {
 			isa = PBXGroup;
 			children = (
 				E2CF86381E78E16600A9E5F6 /* BKFrameworkDemo */,
 				E2CF86371E78E16600A9E5F6 /* Products */,
+				2631D137DC8163FF99A93D2B /* Pods */,
+				BE09FDB935EEACF1C6EB08A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -364,6 +405,7 @@
 			isa = PBXGroup;
 			children = (
 				E215A7F21E81078A00663474 /* BKUIKit.h */,
+				E2AD651C1E82762800F5D8CB /* UIImageView */,
 				E215A7E71E80CABD00663474 /* UITextView */,
 				E28C1EF31E7B79E900F86437 /* UIGestureRecognizer */,
 				E28C1EEF1E7B795A00F86437 /* UIScrollVew */,
@@ -384,9 +426,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2CF864D1E78E16600A9E5F6 /* Build configuration list for PBXNativeTarget "BKFrameworkDemo" */;
 			buildPhases = (
+				6678F9B1328B2AC0AC22D343 /* [CP] Check Pods Manifest.lock */,
 				E2CF86321E78E16600A9E5F6 /* Sources */,
 				E2CF86331E78E16600A9E5F6 /* Frameworks */,
 				E2CF86341E78E16600A9E5F6 /* Resources */,
+				A41255E9D3A3EDE85DE7E07D /* [CP] Embed Pods Frameworks */,
+				7D3C0352B00103F3F17F4640 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -444,6 +489,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6678F9B1328B2AC0AC22D343 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3C0352B00103F3F17F4640 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKFrameworkDemo/Pods-BKFrameworkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41255E9D3A3EDE85DE7E07D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKFrameworkDemo/Pods-BKFrameworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2CF86321E78E16600A9E5F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -462,9 +555,11 @@
 				E2CF866B1E791BE100A9E5F6 /* NSString+BKSystem.m in Sources */,
 				E28C1EEE1E7B78F300F86437 /* UITableView+BKAdd.m in Sources */,
 				E215A7EA1E80CAEF00663474 /* UITextView+BKAdd.m in Sources */,
+				E2AD651B1E8207E100F5D8CB /* BKBaseRequest.m in Sources */,
 				E2CF863B1E78E16600A9E5F6 /* main.m in Sources */,
 				E28C1EFE1E7B7C4500F86437 /* NSObject+BKAdd.m in Sources */,
 				E2CF865E1E7916BC00A9E5F6 /* UIView+BKScreenShot.m in Sources */,
+				E2AD651F1E82764800F5D8CB /* UIImageView+BKUpload.m in Sources */,
 				E2CF86571E78E9F700A9E5F6 /* UIView+BKFrame.m in Sources */,
 				E28C1D6D1E7A8FB500F86437 /* UIButton+BKBlock.m in Sources */,
 				E28C1D5D1E7A667400F86437 /* UIImage+BKColor.m in Sources */,
@@ -593,6 +688,7 @@
 		};
 		E2CF864E1E78E16600A9E5F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7979096564966B887D41AFCB /* Pods-BKFrameworkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LRUWE3569V;
@@ -606,6 +702,7 @@
 		};
 		E2CF864F1E78E16600A9E5F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F39FC865C973AA9911E151A /* Pods-BKFrameworkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LRUWE3569V;
