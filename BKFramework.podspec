@@ -5,27 +5,13 @@
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   s.name         = "BKFramework"
-  s.version      = "1.2"
+  s.version      = "1.3"
   s.summary      = "some UIKit and Foundation category extention."
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "some UIKit and Foundation category extention can help developer fast"
 
   s.homepage     = "https://github.com/BestKai/BKFrameWork.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -60,7 +46,6 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios, "7.0"
-  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   s.ios.deployment_target = "7.0"
@@ -68,15 +53,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
   s.source       = { :git => 'https://github.com/BestKai/BKFrameWork.git', :tag => s.version.to_s }
-
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -104,6 +81,12 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+
+ s.subspec 'UIKIt' do |ss|
+    ss.source_files = 'BKFrameworkDemo/BKFrameworkDemo/BKFramework/UIKIt/**/*.{h,m}'
+    ss.public_header_files = 'BKFrameworkDemo/BKFrameworkDemo/BKFramework/UIKIt/BKUIKit.h'
+    ss.frameworks = 'UIKit'
+  end
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
