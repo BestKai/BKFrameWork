@@ -10,7 +10,7 @@
 
 @implementation UIButton (BKAlignment)
 
-- (void)verticalCenterImageAndTitle:(CGFloat)spacing
+- (void)bk_verticalCenterImageAndTitle:(CGFloat)spacing
 {
     // get the size of the elements here for readability
     CGSize imageSize = self.imageView.frame.size;
@@ -27,14 +27,14 @@
     self.imageEdgeInsets = UIEdgeInsetsMake(- (titleSize.height + spacing/2), 0.0, 0.0, - titleSize.width);
 }
 
-- (void)verticalCenterImageAndTitle
+- (void)bk_verticalCenterImageAndTitle
 {
     const int DEFAULT_SPACING = 6.0f;
-    [self verticalCenterImageAndTitle:DEFAULT_SPACING];
+    [self bk_verticalCenterImageAndTitle:DEFAULT_SPACING];
 }
 
 
-- (void)horizontalCenterTitleAndImage:(CGFloat)spacing
+- (void)bk_horizontalCenterTitleAndImage:(CGFloat)spacing
 {
     // get the size of the elements here for readability
     CGSize imageSize = self.imageView.frame.size;
@@ -51,14 +51,14 @@
     self.imageEdgeInsets = UIEdgeInsetsMake(0.0, titleSize.width + spacing/2, 0.0, - titleSize.width);
 }
 
-- (void)horizontalCenterTitleAndImage
+- (void)bk_horizontalCenterTitleAndImage
 {
     const int DEFAULT_SPACING = 6.0f;
-    [self horizontalCenterTitleAndImage:DEFAULT_SPACING];
+    [self bk_horizontalCenterTitleAndImage:DEFAULT_SPACING];
 }
 
 
-- (void)horizontalCenterImageAndTitle:(CGFloat)spacing;
+- (void)bk_horizontalCenterImageAndTitle:(CGFloat)spacing;
 {
     // get the size of the elements here for readability
     //    CGSize imageSize = self.imageView.frame.size;
@@ -68,14 +68,14 @@
     self.imageEdgeInsets = UIEdgeInsetsMake(0.0, - spacing/2, 0.0, 0.0);
 }
 
-- (void)horizontalCenterImageAndTitle;
+- (void)bk_horizontalCenterImageAndTitle;
 {
     const int DEFAULT_SPACING = 6.0f;
-    [self horizontalCenterImageAndTitle:DEFAULT_SPACING];
+    [self bk_horizontalCenterImageAndTitle:DEFAULT_SPACING];
 }
 
 
-- (void)horizontalCenterTitleAndImageLeft:(CGFloat)spacing
+- (void)bk_horizontalCenterTitleAndImageLeft:(CGFloat)spacing
 {
     // get the size of the elements here for readability
     //    CGSize imageSize = self.imageView.frame.size;
@@ -84,14 +84,14 @@
     self.imageEdgeInsets = UIEdgeInsetsMake(0.0, - spacing, 0.0, 0.0);
 }
 
-- (void)horizontalCenterTitleAndImageLeft
+- (void)bk_horizontalCenterTitleAndImageLeft
 {
     const int DEFAULT_SPACING = 6.0f;
-    [self horizontalCenterTitleAndImageLeft:DEFAULT_SPACING];
+    [self bk_horizontalCenterTitleAndImageLeft:DEFAULT_SPACING];
 }
 
 
-- (void)horizontalCenterTitleAndImageRight:(CGFloat)spacing
+- (void)bk_horizontalCenterTitleAndImageRight:(CGFloat)spacing
 {
     // get the size of the elements here for readability
     CGSize imageSize = self.imageView.frame.size;
@@ -108,10 +108,10 @@
     self.imageEdgeInsets = UIEdgeInsetsMake(0.0, titleSize.width + imageSize.width + spacing, 0.0, - titleSize.width);
 }
 
-- (void)horizontalCenterTitleAndImageRight
+- (void)bk_horizontalCenterTitleAndImageRight
 {
     const int DEFAULT_SPACING = 6.0f;
-    [self horizontalCenterTitleAndImageRight:DEFAULT_SPACING];
+    [self bk_horizontalCenterTitleAndImageRight:DEFAULT_SPACING];
 }
 
 

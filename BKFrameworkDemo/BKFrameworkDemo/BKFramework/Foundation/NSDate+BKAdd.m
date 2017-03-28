@@ -77,63 +77,63 @@
 }
 
 - (BOOL)isYesterday {
-    NSDate *added = [self dateByAddingDays:1];
+    NSDate *added = [self bk_dateByAddingDays:1];
     return [added isToday];
 }
 
-- (NSDate *)dateByAddingYears:(NSInteger)years {
+- (NSDate *)bk_dateByAddingYears:(NSInteger)years {
     NSCalendar *calendar =  [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];
     [components setYear:years];
     return [calendar dateByAddingComponents:components toDate:self options:0];
 }
 
-- (NSDate *)dateByAddingMonths:(NSInteger)months {
+- (NSDate *)bk_dateByAddingMonths:(NSInteger)months {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];
     [components setMonth:months];
     return [calendar dateByAddingComponents:components toDate:self options:0];
 }
 
-- (NSDate *)dateByAddingWeeks:(NSInteger)weeks {
+- (NSDate *)bk_dateByAddingWeeks:(NSInteger)weeks {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];
     [components setWeekOfYear:weeks];
     return [calendar dateByAddingComponents:components toDate:self options:0];
 }
 
-- (NSDate *)dateByAddingDays:(NSInteger)days {
+- (NSDate *)bk_dateByAddingDays:(NSInteger)days {
     NSTimeInterval aTimeInterval = [self timeIntervalSinceReferenceDate] + 86400 * days;
     NSDate *newDate = [NSDate dateWithTimeIntervalSinceReferenceDate:aTimeInterval];
     return newDate;
 }
 
-- (NSDate *)dateByAddingHours:(NSInteger)hours {
+- (NSDate *)bk_dateByAddingHours:(NSInteger)hours {
     NSTimeInterval aTimeInterval = [self timeIntervalSinceReferenceDate] + 3600 * hours;
     NSDate *newDate = [NSDate dateWithTimeIntervalSinceReferenceDate:aTimeInterval];
     return newDate;
 }
 
-- (NSDate *)dateByAddingMinutes:(NSInteger)minutes {
+- (NSDate *)bk_dateByAddingMinutes:(NSInteger)minutes {
     NSTimeInterval aTimeInterval = [self timeIntervalSinceReferenceDate] + 60 * minutes;
     NSDate *newDate = [NSDate dateWithTimeIntervalSinceReferenceDate:aTimeInterval];
     return newDate;
 }
 
-- (NSDate *)dateByAddingSeconds:(NSInteger)seconds {
+- (NSDate *)bk_dateByAddingSeconds:(NSInteger)seconds {
     NSTimeInterval aTimeInterval = [self timeIntervalSinceReferenceDate] + seconds;
     NSDate *newDate = [NSDate dateWithTimeIntervalSinceReferenceDate:aTimeInterval];
     return newDate;
 }
 
-- (NSString *)stringWithFormat:(NSString *)format {
+- (NSString *)bk_stringWithFormat:(NSString *)format {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];
     [formatter setLocale:[NSLocale currentLocale]];
     return [formatter stringFromDate:self];
 }
 
-- (NSString *)stringWithFormat:(NSString *)format timeZone:(NSTimeZone *)timeZone locale:(NSLocale *)locale {
+- (NSString *)bk_stringWithFormat:(NSString *)format timeZone:(NSTimeZone *)timeZone locale:(NSLocale *)locale {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];
     if (timeZone) [formatter setTimeZone:timeZone];
@@ -141,7 +141,7 @@
     return [formatter stringFromDate:self];
 }
 
-- (NSString *)stringWithISOFormat {
+- (NSString *)bk_stringWithISOFormat {
     static NSDateFormatter *formatter = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -152,13 +152,13 @@
     return [formatter stringFromDate:self];
 }
 
-+ (NSDate *)dateWithString:(NSString *)dateString format:(NSString *)format {
++ (NSDate *)bk_dateWithString:(NSString *)dateString format:(NSString *)format {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];
     return [formatter dateFromString:dateString];
 }
 
-+ (NSDate *)dateWithString:(NSString *)dateString format:(NSString *)format timeZone:(NSTimeZone *)timeZone locale:(NSLocale *)locale {
++ (NSDate *)bk_dateWithString:(NSString *)dateString format:(NSString *)format timeZone:(NSTimeZone *)timeZone locale:(NSLocale *)locale {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];
     if (timeZone) [formatter setTimeZone:timeZone];
@@ -166,7 +166,7 @@
     return [formatter dateFromString:dateString];
 }
 
-+ (NSDate *)dateWithISOFormatString:(NSString *)dateString {
++ (NSDate *)bk_dateWithISOFormatString:(NSString *)dateString {
     static NSDateFormatter *formatter = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

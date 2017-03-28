@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param years  Number of years to add.
  @return Date modified by the number of desired years.
  */
-- (nullable NSDate *)dateByAddingYears:(NSInteger)years;
+- (nullable NSDate *)bk_dateByAddingYears:(NSInteger)years;
 
 /**
  Returns a date representing the receiver date shifted later by the provided number of months.
@@ -54,7 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param months  Number of months to add.
  @return Date modified by the number of desired months.
  */
-- (nullable NSDate *)dateByAddingMonths:(NSInteger)months;
+- (nullable NSDate *)bk_dateByAddingMonths:(NSInteger)months;
 
 /**
  Returns a date representing the receiver date shifted later by the provided number of weeks.
@@ -62,7 +62,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param weeks  Number of weeks to add.
  @return Date modified by the number of desired weeks.
  */
-- (nullable NSDate *)dateByAddingWeeks:(NSInteger)weeks;
+- (nullable NSDate *)bk_dateByAddingWeeks:(NSInteger)weeks;
 
 /**
  Returns a date representing the receiver date shifted later by the provided number of days.
@@ -70,7 +70,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param days  Number of days to add.
  @return Date modified by the number of desired days.
  */
-- (nullable NSDate *)dateByAddingDays:(NSInteger)days;
+- (nullable NSDate *)bk_dateByAddingDays:(NSInteger)days;
 
 /**
  Returns a date representing the receiver date shifted later by the provided number of hours.
@@ -78,7 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param hours  Number of hours to add.
  @return Date modified by the number of desired hours.
  */
-- (nullable NSDate *)dateByAddingHours:(NSInteger)hours;
+- (nullable NSDate *)bk_dateByAddingHours:(NSInteger)hours;
 
 /**
  Returns a date representing the receiver date shifted later by the provided number of minutes.
@@ -86,7 +86,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param minutes  Number of minutes to add.
  @return Date modified by the number of desired minutes.
  */
-- (nullable NSDate *)dateByAddingMinutes:(NSInteger)minutes;
+- (nullable NSDate *)bk_dateByAddingMinutes:(NSInteger)minutes;
 
 /**
  Returns a date representing the receiver date shifted later by the provided number of seconds.
@@ -94,7 +94,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param seconds  Number of seconds to add.
  @return Date modified by the number of desired seconds.
  */
-- (nullable NSDate *)dateByAddingSeconds:(NSInteger)seconds;
+- (nullable NSDate *)bk_dateByAddingSeconds:(NSInteger)seconds;
 
 
 #pragma mark - Date Format
@@ -112,7 +112,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return NSString representing the formatted date string.
  */
-- (nullable NSString *)stringWithFormat:(NSString *)format;
+- (nullable NSString *)bk_stringWithFormat:(NSString *)format;
 
 /**
  Returns a formatted string representing this date.
@@ -128,7 +128,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return NSString representing the formatted date string.
  */
-- (nullable NSString *)stringWithFormat:(NSString *)format
+- (nullable NSString *)bk_stringWithFormat:(NSString *)format
                                timeZone:(nullable NSTimeZone *)timeZone
                                  locale:(nullable NSLocale *)locale;
 
@@ -138,7 +138,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return NSString representing the formatted date string in ISO8601.
  */
-- (nullable NSString *)stringWithISOFormat;
+- (nullable NSString *)bk_stringWithISOFormat;
 
 /**
  Returns a date parsed from given string interpreted using the format.
@@ -149,7 +149,7 @@ NS_ASSUME_NONNULL_BEGIN
  @return A date representation of string interpreted using the format.
  If can not parse the string, returns nil.
  */
-+ (nullable NSDate *)dateWithString:(NSString *)dateString format:(NSString *)format;
++ (nullable NSDate *)bk_dateWithString:(NSString *)dateString format:(NSString *)format;
 
 /**
  Returns a date parsed from given string interpreted using the format.
@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
  @return A date representation of string interpreted using the format.
  If can not parse the string, returns nil.
  */
-+ (nullable NSDate *)dateWithString:(NSString *)dateString
++ (nullable NSDate *)bk_dateWithString:(NSString *)dateString
                              format:(NSString *)format
                            timeZone:(nullable NSTimeZone *)timeZone
                              locale:(nullable NSLocale *)locale;
@@ -175,7 +175,7 @@ NS_ASSUME_NONNULL_BEGIN
  @return A date representation of string interpreted using the format.
  If can not parse the string, returns nil.
  */
-+ (nullable NSDate *)dateWithISOFormatString:(NSString *)dateString;
++ (nullable NSDate *)bk_dateWithISOFormatString:(NSString *)dateString;
 
 
 @end

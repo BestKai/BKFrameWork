@@ -16,7 +16,7 @@
  *  @param backgroundColor 背景颜色
  *  @param state           按钮状态
  */
-- (void)setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state
+- (void)bk_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state
 {
     [self setBackgroundImage:[UIButton bk_b_imageWithColor:backgroundColor] forState:state];
 }

@@ -16,7 +16,7 @@
  @param plist   A property list data whose root object is a dictionary.
  @return A new dictionary created from the binary plist data, or nil if an error occurs.
  */
-+ (NSDictionary *)dictionaryWithPlistData:(NSData *)plist;
++ (NSDictionary *)bk_dictionaryWithPlistData:(NSData *)plist;
 
 /**
  Creates and returns a dictionary from a specified property list xml string.
@@ -26,7 +26,7 @@
  
  @discussion Apple has implemented this method, but did not make it public.
  */
-+ (NSDictionary *)dictionaryWithPlistString:(NSString *)plist;
++ (NSDictionary *)bk_dictionaryWithPlistString:(NSString *)plist;
 
 /**
  Serialize the dictionary to a binary property list data.
@@ -35,14 +35,14 @@
  
  @discussion Apple has implemented this method, but did not make it public.
  */
-- (NSData *)plistData;
+- (NSData *)bk_plistData;
 
 /**
  Serialize the dictionary to a xml property list string.
  
  @return A plist xml string, or nil if an error occurs.
  */
-- (NSString *)plistString;
+- (NSString *)bk_plistString;
 
 /**
  Returns a new array containing the dictionary's keys sorted.
@@ -51,7 +51,7 @@
  @return A new array containing the dictionary's keys,
  or an empty array if the dictionary has no entries.
  */
-- (NSArray *)allKeysSorted;
+- (NSArray *)bk_allKeysSorted;
 
 /**
  Returns a new array containing the dictionary's values sorted by keys.
@@ -62,14 +62,14 @@
  @return A new array containing the dictionary's values sorted by keys,
  or an empty array if the dictionary has no entries.
  */
-- (NSArray *)allValuesSortedByKeys;
+- (NSArray *)bk_allValuesSortedByKeys;
 
 /**
  Returns a BOOL value tells if the dictionary has an object for key.
  
  @param key The key.
  */
-- (BOOL)containsObjectForKey:(id)key;
+- (BOOL)bk_containsObjectForKey:(id)key;
 
 /**
  Returns a new dictionary containing the entries for keys.
@@ -78,17 +78,17 @@
  @param keys The keys.
  @return The entries for the keys.
  */
-- (NSDictionary *)entriesForKeys:(NSArray *)keys;
+- (NSDictionary *)bk_entriesForKeys:(NSArray *)keys;
 
 /**
  Convert dictionary to json string. return nil if an error occurs.
  */
-- (NSString *)jsonStringEncoded;
+- (NSString *)bk_jsonStringEncoded;
 
 /**
  Convert dictionary to json string formatted. return nil if an error occurs.
  */
-- (NSString *)jsonPrettyStringEncoded;
+- (NSString *)bk_jsonPrettyStringEncoded;
 
 
 @end

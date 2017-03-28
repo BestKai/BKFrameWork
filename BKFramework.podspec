@@ -6,7 +6,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BKFramework"
-  s.version      = "1.3"
+  s.version      = "1.4"
   s.summary      = "some UIKit and Foundation category extention."
   s.description  = "some UIKit and Foundation category extention can help developer fast"
 
